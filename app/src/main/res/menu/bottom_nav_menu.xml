@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id = "@+id/action_human_body"
+            android:enabled="true"
+            android:icon="@drawable/ic_human_body"
+            android:title="@string/human_body"
+            />
+        <item
+            android:id = "@+id/action_custom_workout"
+            android:enabled="true"
+            android:icon="@drawable/ic_custom_workout"
+            android:title="@string/custom_workout"
+            />
+        <item
+            android:id = "@+id/action_reports"
+            android:enabled="true"
+            android:icon="@drawable/ic_reports"
+            android:title="@string/reports"
+            />
+
+
+
+</menu>

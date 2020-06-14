@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/humanBody">
+
+    <fragment
+        android:id="@+id/humanBody"
+        android:name="com.example.strch_app_2.humanBody"
+        android:label="fragment_human_body"
+        tools:layout="@layout/fragment_human_body" />
+    <fragment
+        android:id="@+id/customWorkout"
+        android:name="com.example.strch_app_2.customWorkout"
+        android:label="fragment_custom_workout"
+        tools:layout="@layout/fragment_custom_workout" />
+    <fragment
+        android:id="@+id/reports"
+        android:name="com.example.strch_app_2.Reports"
+        android:label="fragment_reports"
+        tools:layout="@layout/fragment_reports" />
+</navigation>
